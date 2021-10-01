@@ -89,6 +89,10 @@ const utils = {
 				toType,
 				quality
 			);
+
+			//memory leak cleanup for iOS
+			canvas.width = 0;
+			canvas.height = 0;
 		});
 	},
 

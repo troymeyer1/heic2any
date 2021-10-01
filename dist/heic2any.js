@@ -92,6 +92,9 @@ var utils = {
                 }
                 return resolve(blob);
             }, toType, quality);
+            //memory leak cleanup for iOS
+            canvas.width = 0;
+            canvas.height = 0;
         });
     },
     imagesToGif: function (ref) {
