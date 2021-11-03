@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/alexcorvi/heic2any.git"
+		"url": "git+https://github.com/troymeyer1/heic2any.git"
 	},
 	"keywords": [
 		"HEIC",
@@ -25,9 +25,9 @@
 	"author": "Alex Corvi",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/alexcorvi/heic2any/issues"
+		"url": "https://github.com/troymeyer1/heic2any/issues"
 	},
-	"homepage": "https://github.com/alexcorvi/heic2any#readme",
+	"homepage": "https://github.com/troymeyer1/heic2any#readme",
 	"dependencies": {},
 	"devDependencies": {
 		"@types/buble": "^0.19.2",
